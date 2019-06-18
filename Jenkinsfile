@@ -31,7 +31,6 @@ pipeline {
                             //sh 'git branch'
                             // sh 'git checkout $branch'
                             sh 'ls -la'
-                            asfsdfsfds
                         }
                     }
                 }
