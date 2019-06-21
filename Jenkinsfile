@@ -26,12 +26,10 @@ pipeline {
                 timestamps {
                     // Clone the repo
                     timeout(time: 300, unit: 'SECONDS') {
-                        dir('rails-app') {
-                            //git credentialsId: 'coral-deployer', branch: "$GIT_BRANCH", url: "$GIT_REPO"
-                            //sh 'git branch'
-                            // sh 'git checkout $branch'
-                            sh 'ls -la'
-                        }
+                        //git credentialsId: 'coral-deployer', branch: "$GIT_BRANCH", url: "$GIT_REPO"
+                        //sh 'git branch'
+                        // sh 'git checkout $branch'
+                        sh 'ls -la'
                     }
                 }
             }
